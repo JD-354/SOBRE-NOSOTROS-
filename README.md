@@ -92,7 +92,6 @@
         </nav>
 
         <img src="https://blog-inolvidable.joyeriasbizzarro.com/hubfs/2024_MIDO_Blog_BannerHome_Desk.jpg"  class="d-block w-100" width="350" height="350">
-      
       <div class="container my-5"></div>
         <section id="contacto" class="contact-section">
             <div class="container">
