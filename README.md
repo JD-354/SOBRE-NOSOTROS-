@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Reloj Maestro - Tienda de Relojes</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
 <body>
        <style>
         .card-img-top {
@@ -24,6 +26,25 @@
             font-weight: bold;
             color: #fff;
             text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+        .navbar-brand img{ max-height: 500px;
+      }
+      .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+
+        .contact-section {
+            padding: 20px ;
+            background-color:rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            padding: 20px;
+            border-radius: 20px;
+            background-color:rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 20px rgb(0, 170, 255);
         }
 
 
@@ -66,6 +87,7 @@
         }
 
       </style>
+    </head>
     <body>
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -76,7 +98,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="https://jd-354.github.io/RJ/">Inicio <span class="sr-only"></span></a>
+                <a class="nav-link" href="https://jd-354.github.io/RJ/">Inicio</a>
               </li>
               <li class="nav-item">
             <a class="nav-link" href="https://jd-354.github.io/SOBRE-NOSOTROS-/">Sobre Nosotros</a>
@@ -89,8 +111,36 @@
         </nav>
 
         <img src="https://blog-inolvidable.joyeriasbizzarro.com/hubfs/2024_MIDO_Blog_BannerHome_Desk.jpg"  class="d-block w-100" width="350" height="350">
-    </header>
-      <div class="container my-5"></div>
+      </header>
+    
+      <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://watchfluence.com/wp-content/uploads/2024/04/v2-agkrn-0u4x7-1024x702.jpg"alt="Reloj 1" class="d-block w-100"width="600" height="300">
+            </div>
+            <div class="carousel-item">
+              <img src="https://macrotehnicus.ro/wp-content/uploads/2021/10/11-cele-mai-bune-smartwatch-uri.jpg" class="d-block w-100" alt="Reloj 2"width="300" height="300">
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.runnea.com/images/202308/mejores-relojes-deportivos-hombre-listado-apertura-bene-1200x572x80xX.jpg?1" " class="d-block w-100" alt="Reloj 3" width="500" height="300">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    <div class="container my-5"></div>
         <section id="contacto" class="contact-section">
             <div class="container">
                 <h3 class="mb-3"></h3>
@@ -105,24 +155,25 @@
             </li>
             </div>
           </div>
-      <main>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-            <div class="carousel-item">
-              <img src="#" class="d-block w-100" alt="Reloj 2"width="0" height="0">
+        </section>
+        
+      <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2024 Reloj Maestro. Todos los derechos reservados.</p>
             </div>
-            <div class="carousel-item">
-              <img src="#" class="d-block w-100" alt="Reloj 3" width="0" height="0">
+            <div class="col-md-6 text-md-right">
+              <a href="#" class="text-white mr-3">Sobre Nosotros</a>
+              <a href="#" class="text-white mr-3">Contacto</a>
+              <a href="#" class="text-white">Política de Privacidad</a>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-    <main>
-        
+      </footer>
+    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
