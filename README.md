@@ -8,14 +8,15 @@
     <style>
     body{
         margin: 0;
-        font-family: Arial,  sans-serif;
-    }
-.color-box{
-    padding: 100px;
-    margin:100;
-    color:aquamarine;
-    text-align:center;
-}
+    font-family: Arial,  sans-serif;
+   
+body {
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+            background: linear-gradient(45deg,rgba(255, 255, 255, 0.1) , black);;
+      }
+
+
 
 body {
             display: flex;
