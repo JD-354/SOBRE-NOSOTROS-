@@ -93,11 +93,25 @@
 
         <img src="https://blog-inolvidable.joyeriasbizzarro.com/hubfs/2024_MIDO_Blog_BannerHome_Desk.jpg"  class="d-block w-100" width="350" height="350">
       </header>
-    
+      <div class="container my-5"></div>
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h3 class="mb-3"></h3>
+                <div class="row">
+                    <!-- Información de Contacto -->
+                    <div class="mb-3">
+                <div class=".contact-info">
+                    <li>
+              <strong>Somos una empresa dedicada a la venta de relojes exclusivos de las marcas más prestigiosas del mundo. Nuestra pasión por los relojes de alta calidad nos ha llevado a crear esta colección, que hemos cuidado con gran esmero para ofrecerte los mejores productos.</strong>
+              <strong>Nuestro equipo de expertos en relojería ha seleccionado cada uno de estos modelos, asegurándose de que cumplan con los más altos estándares de calidad y diseño. Nos enorgullece poder compartir esta colección contigo y esperamos que encuentres el reloj perfecto para complementar tu estilo de vida.</strong>
+              <strong>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos. Estaremos encantados de asistirte.</strong >
+            </li>
+            </div>
+          </div>
+
       <main>
           <div class="carousel-inner">
             <div class="carousel-item active">
-        </div>
             <div class="carousel-item">
               <img src="#" class="d-block w-100" alt="Reloj 2"width="0" height="0">
             </div>
@@ -115,18 +129,4 @@
           </a>
         </div>
     <main>
-        <div class="container my-5"></div>
-        <section id="contacto" class="contact-section">
-            <div class="container">
-                <h3 class="mb-3"></h3>
-                <div class="row">
-                    <!-- Información de Contacto -->
-                    <div class="mb-3">
-                <div class=".contact-info">
-                    <li>
-              <strong>Somos una empresa dedicada a la venta de relojes exclusivos de las marcas más prestigiosas del mundo. Nuestra pasión por los relojes de alta calidad nos ha llevado a crear esta colección, que hemos cuidado con gran esmero para ofrecerte los mejores productos.</strong>
-              <strong>Nuestro equipo de expertos en relojería ha seleccionado cada uno de estos modelos, asegurándose de que cumplan con los más altos estándares de calidad y diseño. Nos enorgullece poder compartir esta colección contigo y esperamos que encuentres el reloj perfecto para complementar tu estilo de vida.</strong>
-              <strong>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos. Estaremos encantados de asistirte.</strong >
-            </li>
-            </div>
-          </div>
+        
