@@ -38,7 +38,6 @@ body {
                 <h3 class="mb-0"></h3>
                 
     </div>
-    </div>
     <main>
           <div class="row">
             <div class="col-md-8 offset-md-2"><button onclick="openModal('otros apoyos')" class="btn">
@@ -51,5 +50,4 @@ body {
         </div>
 
       </main>
-</body>
-</html>-
+
