@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Reloj Maestro - Tienda de Relojes</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
 <body>
        <style>
         .card-img-top {
@@ -106,8 +104,7 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="#" class="d-block w-100" alt="Reloj 1"width="0" height="0">
-            </div>
+        </div>
             <div class="carousel-item">
               <img src="#" class="d-block w-100" alt="Reloj 2"width="0" height="0">
             </div>
@@ -140,8 +137,3 @@
             </li>
             </div>
           </div>
-        </section>
-
-      </main>
-      </html>
-    </body>
