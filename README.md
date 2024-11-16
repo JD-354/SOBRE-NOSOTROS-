@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Reloj Maestro - Tienda de Relojes</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
 <body>
        <style>
         .card-img-top {
@@ -122,13 +120,13 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://watchfluence.com/wp-content/uploads/2024/04/v2-agkrn-0u4x7-1024x702.jpg"alt="Reloj 1" class="d-block w-100"width="600" height="300">
+             <img src="https://media.revistagq.com/photos/62962195a59bf62af3fe45e3/16:9/w_2560%2Cc_limit/11.jpeg"  class="d-block w-100" width="600" height="300">
             </div>
             <div class="carousel-item">
-              <img src="https://macrotehnicus.ro/wp-content/uploads/2021/10/11-cele-mai-bune-smartwatch-uri.jpg" class="d-block w-100" alt="Reloj 2"width="300" height="300">
+              <img src="https://anpre.es/wp-content/uploads/2021/09/Todo-sobre-los-coleccionistas-de-relojes-2-1.jpg "  class="d-block w-100" width="300" height="300">
             </div>
             <div class="carousel-item">
-              <img src="https://static.runnea.com/images/202308/mejores-relojes-deportivos-hombre-listado-apertura-bene-1200x572x80xX.jpg?1" " class="d-block w-100" alt="Reloj 3" width="500" height="300">
+              <img src=" https://monochrome-watches.com/wp-content/uploads/2021/06/Glashutte-Original-Seventies-Chronograph-Panorama-Date-2021-Limited-Editions-bright-turquoise-gradient-3-768x512.jpg"  class="d-block w-100" width="350" height="300">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -155,7 +153,6 @@
             </li>
             </div>
           </div>
-        </section>
         
       <footer class="bg-dark text-white py-4">
         <div class="container">
@@ -175,5 +172,3 @@
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
